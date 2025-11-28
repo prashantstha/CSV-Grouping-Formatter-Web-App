@@ -1,0 +1,64 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# Output
+.next/
+out/
+dist/
+build/
+.vercel/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debugging
+*.pid
+*.seed
+*.pid.lock
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Typescript
+*.tsbuildinfo
+
+# Tailwind
+*.css.map
+
+# Misc
+coverage/
+tmp/
+temp/
+.cache/
+.next.cache/
+
+# Local serverless emulators
+.serverless/
+.firebase/
+
+# Uploaded files (if any local)
+uploads/
+
